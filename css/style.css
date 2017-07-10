@@ -302,7 +302,11 @@ a, a:hover{
             transform: rotateY(180deg);
 			position:absolute;
 			background:rgba(51,51,51,1);
+<<<<<<< HEAD
 			height:101px;
+=======
+			height:100px;
+>>>>>>> origin/mybranch
 			
         }
 		
