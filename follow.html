@@ -16,6 +16,12 @@
 
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     
+    <!--[if lt IE 9]> 
+			<style>
+				.rw-wrapper{ display: none; } 
+				.rw-sentence-IE{ display: block;  }
+			</style>
+	<![endif]-->
 </head>
 <body data-post="http://www.egrappler.com/flat-responsive-portfolio-website-template-for-free-download/">
 
@@ -55,10 +61,10 @@
 					<span class="name">Follow Me</span>
 				</div>
 				<div class="desciption">
-				 
-					<p>Thank you for coming along!</p>
-					<p>You can follow me on your favorite social network. You will not regret, I bet!</p>
-                    
+					<div class="alert alert-block alert-success">
+						<p>Thank you for coming along!</p>
+						<p>You can follow me on your favorite social network. You will not regret, I bet!</p>
+					</div>
                     <ul class="social-stats clearfix">
                     	<li><a href="#" class="icon iconf"><span class="icon-facebook"></span></a> <span class="socialvalue">352</span></li>
                         <li><a href="#" class="icon icont"><span class="icon-twitter"></span></a> <span class="socialvalue">352</span></li>
@@ -66,7 +72,7 @@
                         <li><a href="#" class="icon iconin"><span class="icon-linkedin"></span></a> <span class="socialvalue">352</span></li>
                     </ul>
                     
-                    <p>Additionally, you can also scubscribe to my RSS feed.</p>
+                    <p class="alert alert-block alert-success">Additionally, you can also scubscribe to my RSS feed.</p>
                     <ul class="social-stats clearfix">
                     	<li><a href="#" class="icon iconr roll"><span class="icon-rss"></span></a> <span class="socialvalue">352</span></li>
                     </ul>
@@ -79,23 +85,8 @@
 <script type="text/javascript" src="../wp-content/themes/piha/js/top-bar.js" ></script>
 <script type="text/javascript" src="../wp-content/themes/piha/js/bsa-ads.js" ></script>
 <script src="js/modernizr.custom.72111.js"></script>
-<script type="text/javascript">
-  var myIndex = 0;
-  carousel();
-
-  function carousel() 
-  {
-    var i;
-    var x = document.getElementsByClassName("avatar");
-    for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-  }
-</script>		
+<script src="js/slide.js" type="text/javascript"></script>
+		
     <!--Dynamically creates analytics markup-->
   <?php include("http://www.egrappler.com/analytics.php");?>
 		
