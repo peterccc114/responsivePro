@@ -125,6 +125,8 @@
 							</div>
 							<div id="bar-4">
 							</div>
+							<div id="bar-5">
+							</div>
                            
 						</div>
 					</div>					
@@ -135,7 +137,7 @@
 							<div  class="content" id="content-2">CSS is a style sheet language used for describing the presentation semantics  of a document written in a markup language.</div>
 							<div  class="content" id="content-3">As part of web browsers, implementations allow client-side scripts to interact with the user and control the browser.</div>
 							<div  class="content" id="content-4">WordPress is an open source blogging tool and a CMS based on PHP and MySQL, which runs on a web hosting service.</div>
-							<div  class="content" id="content-5">A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog.</div>
+							<div  class="content" id="content-5">AngularJS is a JavaScript-based open-source front-end web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications.</div>
 							<div  class="content" id="content-6">A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog.</div>
 						</div>
 					</div>
@@ -161,8 +163,10 @@
 
             $('#bar-4').jqbar({ label: 'WordPress', value: 75, barColor: '#21ba82' });
 
-          
+            $('#bar-5').jqbar({ label: 'AngularJS', value: 80, barColor: '#21ba82' });
 			
+			$('#bar-6').jqbar({ label: 'ReactS', value: 85, barColor: '#21ba82' });
+
 			$('#bars-content .content').css({'opacity':'0',display:'none'});
 			$('#bars-content .content:eq(0)').css('display','block').animate({opacity:1},1000);
 			$('.jqbar:first').addClass('active');

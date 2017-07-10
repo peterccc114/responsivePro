@@ -12,21 +12,42 @@
 <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
+<!--[if lt IE 9]> 
+			<style>
+				.rw-wrapper{ display: none; } 
+				.rw-sentence-IE{ display: block;  }
+			</style>
+	<![endif]-->
 </head>
 <body data-post="http://www.egrappler.com/flat-responsive-portfolio-website-template-for-free-download/">
 <div class="container topbottom">
   <div class="row-fluid">
-    <div class="span5"> <img src="img/avatar.jpg" alt="Profile Avatar" class="avatar">
-      <div class="navigation">
-        <div>
-          <ul>
-            <li> <img src="img/about-icon.png"> <a href="index.html">About Me</a> </li>
-            <li> <img src="img/portfolio-icon.png"> <a href="portfolio.html">Portfolio</a> </li>
-            <li> <img src="img/followme-icon.png"> <a href="follow.html">Follow Me</a> </li>
-            <li> <img src="img/contact-icon.png"> <a href="contact.html">Contact</a> </li>
-          </ul>
-        </div>
+  <div class="span5">
+    <img src="img/avatar.jpg" alt="Profile Avatar" class="avatar">
+    <img src="img/workbench.jpg" alt="Profile Avatar" class="avatar">
+    <img src="img/sound.jpg" alt="Profile Avatar" class="avatar">
+    <div class="navigation">
+      <div>
+        <ul>
+          <li>
+            <img src="img/about-icon.png">
+            <a href="index.html">About Me</a>
+          </li>
+          <li>
+            <img src="img/portfolio-icon.png">
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <img src="img/followme-icon.png">
+            <a href="follow.html">Follow Me</a>
+          </li>
+          <li>
+            <img src="img/contact-icon.png">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
+    </div> 			
     </div>
     <div class="span7 homeabout">
       <div class="person"> <span class="name">Portfolio</span> </div>
@@ -37,16 +58,16 @@
         <ul id="portfolio-filter">
           <li><a href="#" class="current" data-filter="*">All</a></li>
           <li><a href="#" data-filter=".webdesign">WebDesign</a></li>
-          <li><a href="#" data-filter=".photoghraphy">AngluarJs, React,</a></li>
-          <li><a href="#" data-filter=".illustration">Wordpress, php</a></li>
-          <li><a href="#" data-filter=".print">Print</a></li>
-          <li><a href="#" data-filter=".animation">Animation</a></li>
+          <li><a href="#" data-filter=".AngularJs">AngularJs, React</a></li>
+          <li><a href="#" data-filter=".Wordpress">Wordpress, php</a></li>
+          <li><a href="#" data-filter=".raily">Raily on Ruby</a></li>
+          <li><a href="#" data-filter=".node">Node, Express</a></li>
         </ul>
         <ul id="portfolio-list">
-          <li class="illustration print">
+          <li class="Wordpress">
             <div class="flip-container">
-              <div class="flipper"><a href="img/portfolio/1.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque" rel="portfolio" class="folio">
-                <div class="front">  <img src="img/portfolio/1-thumb.jpg" alt=""> </div>
+              <div class="flipper"><a href="img/portfolio/webdesign/ammunitiongroup.com.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque" rel="portfolio" class="folio">
+                <div class="front">  <img src="img/portfolio/webdesign/ammunitiongroup.com.jpg" alt=""> </div>
                 <div class="back">
                   <h4>Heading</h4>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -56,26 +77,13 @@
               </div>
             </div>
           </li>
-          <li class="webdesign">
+         
+          <li class="AngularJs">
             <div class="flip-container">
               <div class="flipper">
               
-              <a  href="img/portfolio/2.jpg"  rel="portfolio" class="folio">
-                <div class="front">  <img src="img/portfolio/2-thumb.jpg" alt="" >  </div>
-                <div class="back">
-                  <h4>Sample Heading</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-              </a>  
-              </div>
-            </div>
-          </li>
-          <li class="photoghraphy">
-            <div class="flip-container">
-              <div class="flipper">
-              
-              <a  href="img/portfolio/3.jpg"  rel="portfolio" class="folio">
-                <div class="front">  <img src="img/portfolio/3-thumb.jpg" alt="" > </div>
+              <a  href="img/portfolio/Angular/finery.com.jpg"  rel="portfolio" class="folio">
+                <div class="front">  <img src="img/portfolio/Angular/finery.com.jpg" alt="" > </div>
                 <div class="back">
                   <h4>Heading</h4>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -85,12 +93,12 @@
               </div>
             </div>
           </li>
-          <li class="animation print">
+          <li class="node">
             <div class="flip-container">
                 <div class="flipper">
-                <a href="img/portfolio/4.jpg" rel="portfolio" class="folio">
+                <a href="img/portfolio/node express/godreadstrumpstweets.com.jpg" rel="portfolio" class="folio">
                     <div class="front">
-                    	 <img src="img/portfolio/4-thumb.jpg" alt="" />
+                    	 <img src="img/portfolio/node express/godreadstrumpstweets.com.jpg" alt="" />
                     </div>
                      <div class="back">
                       <h4>Heading</h4>
@@ -102,11 +110,11 @@
                </div>
            </div>
             </li>
-          <li class="animation">
+          <li class="node">
             <div class="flip-container">
               <div class="flipper">
-                <a href="img/portfolio/5.jpg" rel="portfolio" class="folio">
-                <div class="front"> <img src="img/portfolio/5-thumb.jpg" alt="" >  </div>
+                <a href="img/portfolio/node express/quangoinc.com.jpg" rel="portfolio" class="folio">
+                <div class="front"> <img src="img/portfolio/node express/quangoinc.com.jpg" alt="" >  </div>
                 <div class="back">
                   <h4>Heading</h4>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -115,25 +123,26 @@
               </div>
             </div>
           </li>
-          <li class="webdesign print">
+          <li class="webdesign">
             <div class="flip-container">
               <div class="flipper">
-                <a href="img/portfolio/6.jpg" rel="portfolio" class="folio">
-                <div class="front">  <img src="img/portfolio/6-thumb.jpg" alt="" >  </div>
+                <a href="img/portfolio/webdesign/research.inmarsat.com.jpg" rel="portfolio" class="folio">
+                <div class="front">  <img src="img/portfolio/webdesign/research.inmarsat.com.jpg" alt="" >  </div>
                 <div class="back">
                   <h4>Heading</h4>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
                 </a>
                 
-              </div>
+              </div>  
             </div>
           </li>
-          <li class="photoghraphy">
+          
+          <li class="AngularJs">
             <div class="flip-container">
               <div class="flipper">
-              <a href="img/portfolio/7.jpg" rel="portfolio" class="folio">
-                <div class="front">  <img src="img/portfolio/7-thumb.jpg" alt="" > </div>
+              <a href="img/portfolio/React/adnorml.com.jpg" rel="portfolio" class="folio">
+                <div class="front">  <img src="img/portfolio/React/adnorml.com.jpg" alt="" > </div>
                 <div class="back">
                   <h4>Heading</h4>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -143,11 +152,11 @@
               </div>
             </div>
           </li>
-          <li class="illustration">
+          <li class="Wordpress">
             <div class="flip-container">
               <div class="flipper">
-              <a href="img/portfolio/8.jpg" rel="portfolio" class="folio">
-                <div class="front"> <img src="img/portfolio/8-thumb.jpg" alt="" >  </div>
+              <a href="img/portfolio/wordpress/napilkai.com.jpg" rel="portfolio" class="folio">
+                <div class="front"> <img src="img/portfolio/wordpress/napilkai.com.jpg" alt="" >  </div>
                 <div class="back">
                   <h4>Heading</h4>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -156,16 +165,44 @@
               </div>
             </div>
           </li>
-          <li class="illustration">
+          <li class="raily">
             <div class="flip-container">
               <div class="flipper">
-              <a href="img/portfolio/9.jpg" rel="portfolio" class="folio">
-                <div class="front">  <img src="img/portfolio/9-thumb.jpg" alt="" > </div>
+              
+              <a  href="img/portfolio/raily/www.loveinstantlove.com.jpg"  rel="portfolio" class="folio">
+                <div class="front">  <img src="img/portfolio/raily/www.loveinstantlove.com.jpg" alt="" >  </div>
+                <div class="back">
+                  <h4>Sample Heading</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </a>  
+              </div>
+            </div>
+          </li>
+          <li class="Wordpress">
+            <div class="flip-container">
+              <div class="flipper">
+              <a href="img/portfolio/wordpress/yourfavoritebakery.com.jpg" rel="portfolio" class="folio">
+                <div class="front">  <img src="img/portfolio/wordpress/yourfavoritebakery.com.jpg" alt="" > </div>
                 <div class="back">
                   <h4>Heading</h4>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
                 </a>
+              </div>
+            </div>
+          </li>
+           <li class="webdesign">
+            <div class="flip-container">
+              <div class="flipper">
+              
+              <a  href="img/portfolio/webdesign/ayana.com.jpg"  rel="portfolio" class="folio">
+                <div class="front">  <img src="img/portfolio/webdesign/ayana.com.jpg" alt="" >  </div>
+                <div class="back">
+                  <h4>Sample Heading</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </a>  
               </div>
             </div>
           </li>
@@ -189,6 +226,21 @@
 			$(this).removeClass('flip');
 		});
 	});
+  var myIndex = 0;
+  carousel();
+
+  function carousel() 
+  {
+    var i;
+    var x = document.getElementsByClassName("avatar");
+    for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
 </script>
     <!--Dynamically creates analytics markup-->
   <?php include("http://www.egrappler.com/analytics.php");?>
