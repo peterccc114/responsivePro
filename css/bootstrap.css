@@ -229,7 +229,11 @@ body {
   color: #333333;
   background-color: #ffffff;
 }
-
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 a {
   color: #0088cc;
   text-decoration: none;
