@@ -308,7 +308,7 @@ a, a:hover{
 		
 		.back h4, .back p{margin:20px; color:#fff;}
 		.back h4 { margin-bottom:10px;}
-		.back p{font-size:14px; color:#efefef; margin-top:0;}
+		.back p{font-size:14px; color:#efefef; margin-top:0;}             
 		
 		.invalid{border:solid 1px red!important;}
 		.valid{background:url('../img/tick.gif') no-repeat right;}
